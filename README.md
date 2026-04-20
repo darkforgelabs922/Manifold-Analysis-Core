@@ -17,8 +17,6 @@ Current liquidity analysis tools rely on linear 2D models (Price vs. Volume). MA
 *   **Predictive Stability:** Using topological invariants to forecast liquidity crises and "black swan" events before they manifest in price action.
 
 ## 🛠 Technical Architecture
-
-File 1: Cargo.toml (This tells them it's a real Rust project)
 code
 Toml
 [package]
