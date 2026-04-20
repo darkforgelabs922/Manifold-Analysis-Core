@@ -18,6 +18,20 @@ Current liquidity analysis tools rely on linear 2D models (Price vs. Volume). MA
 
 ## 🛠 Technical Architecture
 
+File 1: Cargo.toml (This tells them it's a real Rust project)
+code
+Toml
+[package]
+name = "manifold-analysis-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pyo3 = { version = "0.20", features = ["extension-module"] } 
+ndarray = { version = "0.15", features = ["rayon"] } 
+rayon = "1.8" 
+numpy = "0.20"
+
 ### 1. The High-Performance Core (Rust)
 The engine's heavy lifting is handled by a Rust-based tensor library, optimized for parallel execution using `Rayon` and `ndarray`.
 *   **Complexity:** $O(N \cdot M \cdot d^2)$ where $N \times M$ represents the grid resolution and $d$ the manifold dimension.
