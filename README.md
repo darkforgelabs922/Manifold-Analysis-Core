@@ -1,4 +1,4 @@
-# manifold-analysis-core (MAE)
+# Manifold-Analysis-Core (MAE)
 ### *Scaling Liquidity Efficiency through Topological Data Analysis (TDA) and Hyper-Dimensional Manifold Mapping*
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
